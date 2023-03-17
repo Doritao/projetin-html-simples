@@ -1,0 +1,139 @@
+* {
+    /* css daqui se aplica em tudo*/
+    font-family: sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.caixa-azul {
+    /* css daqui se aplica apenas na tag que ele especificou*/
+    display: flex;
+    padding: 50px;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.titulo-iphone {
+    font-size: 30px;
+    margin-top: 30px;
+    margin-bottom: 20px;
+}
+
+.menu-superior {
+    display: flex;
+    height: 50px;
+    align-items: center;
+    justify-content: center;
+    border-bottom: 1px solid #d3d3d3;
+}
+.li {
+   font-size: 12px;
+   font-weight: 400;
+   color: #373737;
+}
+
+.img-logo {
+    height: 20px;
+ 
+}
+
+.caixa-roxa {
+    display: flex;
+    gap: 100px;
+    list-style: none;
+    margin-left: 50px;
+}
+
+
+.titulo-secundario {
+    font-size: 40px;
+    margin-top: 1px;
+    /*margem de cima*/
+    margin-bottom: 20px;
+    /*margem de baixo*/
+}
+
+.paragrafo {
+    font-size: 15px;
+    margin-top: 1px;
+    margin-bottom: 17px;
+}
+
+.preco {
+    font-size: 20px;
+    color: rgb(rgb(128, 123, 126), green, blue);
+    font-weight: 300;
+    margin-bottom: 20px;
+}
+
+.botao {
+    background-color: rgb(80, 122, 220);
+    /*AQUI ELE MUDA A COR DO BACKGROUND, E NAO DA LETRA, SO LER O NOME DO BGLH*/
+    color: white;
+    /* AQUI ELE MUDA O NOME DA LETRA, NAO DO BACKGROUND*/
+    padding: 10px 20px;
+    border: none;
+    border-radius: 20px;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+.troca-cor {
+    width: 40px;
+    height: 40px;
+    border: none;
+    border-radius: 50px;
+    cursor: pointer;
+
+}
+
+.azul {
+    background-color: #81A5C4;
+}
+
+.amarelo {
+    background-color: #F7DA47;
+}
+
+.branco {
+    background-color: #C1C1C1;
+}
+
+.preto {
+    background-color: #272D33;
+}
+
+.vermelho {
+    background-color: #B50012;
+}
+
+.roxo {
+    background-color: #EDE7F1;
+}
+
+
+.escolha-cor {
+    font-size: 16px;
+    color: rgb(192, 180, 191);
+    font-weight: 700;
+    margin-top: 1px;
+    margin-bottom: 15px;
+}
+
+.img-iphone {
+    z-index: 9999;
+    width: 450px;
+    margin-top: 100px;
+    
+}
+
+.circulo {
+    width: 100%;
+    height: 100%;
+    background-color: #81A5C4;
+    position: absolute;
+   top: 0px;
+   left: 0px;
+   clip-path: circle(600px at right 1000px);
+   z-index: 0;
+}
